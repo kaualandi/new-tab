@@ -1,3 +1,5 @@
+"use client";
+
 import { Inter } from 'next/font/google'
 import { Favorites } from './components/Favorites'
 import { Header } from './components/Header'

@@ -45,7 +45,7 @@ const list = [
 
 export function Favorites() {
   return (
-    <nav className="flex justify-center gap-4 mt-[15%] mx-auto">
+    <nav className="flex justify-center gap-4 flex-wrap mt-[15%] mx-auto">
       {list.map((item) => (
         <a
           key={item.id}
